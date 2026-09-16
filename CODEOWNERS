@@ -1,0 +1,7 @@
+# Spec and parameters need a named spec editor.
+/spec/ @psycho-v1
+/docs/PARAMETERS.md @psycho-v1
+/docs/HANDOVER.md @psycho-v1
+/src/libraries/ConstitutionParams.sol @psycho-v1
+/NOTICE.md @psycho-v1
+/CODEOWNERS @psycho-v1
