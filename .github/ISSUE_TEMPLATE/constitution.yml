@@ -1,0 +1,14 @@
+name: Constitutional change
+description: Propose a change to counting, chambers, delays, or dual-gate rules
+title: "[constitution] "
+labels: ["constitution"]
+body:
+  - type: markdown
+    attributes:
+      value: Changes that drop a chamber floor, restore raw-balance voting, or let the DAO declare a Layer 1 change without miner signalling will be closed.
+  - type: textarea
+    id: principle
+    attributes:
+      label: Which principle is being amended?
+    validations:
+      required: true

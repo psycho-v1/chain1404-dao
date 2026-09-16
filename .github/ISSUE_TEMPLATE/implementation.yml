@@ -1,0 +1,12 @@
+name: Implementation
+description: Contract, test, snapshot, or handover-script work
+title: "[impl] "
+labels: ["implementation"]
+body:
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: Point at a box in spec/ACCEPTANCE_TESTS.md.
+    validations:
+      required: true

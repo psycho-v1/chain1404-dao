@@ -1,0 +1,19 @@
+name: Public claim
+description: File a technical claim using the evidence labels
+title: "[claim] "
+labels: ["evidence"]
+body:
+  - type: dropdown
+    id: label
+    attributes:
+      label: Classification you are asserting
+      options: ["Verified", "Supported", "Technically plausible", "Unproved / incorrect"]
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Artifacts
+      description: Tx hash + decoded receipt, or contract + slot + tx, or both state roots, or signed message.
+    validations:
+      required: true
