@@ -12,7 +12,7 @@ Collaborators (`ZombieDuckling`, `EddieForge`, `Welshdag`, `Remz70`, `psycho-v1`
 | Solidity | Governor counting, classification, timelock path | Add sweep / seize / mint / silent upgrade | open — take issue #1 or #3 |
 | Snapshot / off-chain | Epoch datasets, Merkle builder, challenge format | Invent a trusted indexer as the long-term source of truth | open — take issue #2 |
 | Tests | Floor vs score, misclassification, invalidated root, post-handover owner revert | Greenwash a failing floor | open |
-| Evidence | Re-query checkpoints; pin hashes, not domains | Identity claims without a signed message | open |
+| Evidence | Re-query checkpoints; pin hashes, not domains | Identity claims without a signed message | @EddieForge |
 | Comms | Short public wording only | Speak as if this repo controls miners or the freeze | @psycho-v1 |
 
 Put your GitHub handle in a PR that claims a seat. Do not claim two seats if that creates a self-review on spec + implementation.
