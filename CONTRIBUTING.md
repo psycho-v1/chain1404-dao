@@ -11,6 +11,8 @@ Collaborators (`ZombieDuckling`, `EddieForge`, `Welshdag`, `Remz70`, `psycho-v1`
 | Spec editor | `spec/CONSTITUTION.md`, parameters, glossary | Change floors, 70/30, or work-not-stock without an issue labelled `constitution` | @psycho-v1 until named otherwise |
 | Solidity | Governor counting, classification, timelock path | Add sweep / seize / mint / silent upgrade | open — take issue #1 or #3 |
 | Snapshot / off-chain | Epoch datasets, Merkle builder, challenge format | Invent a trusted indexer as the long-term source of truth | open — take issue #2 |
+| Tests | Floor vs score, misclassification, invalidated root, post-handover owner revert | Greenwash a failing floor | open |
+| Evidence | Re-query checkpoints; pin hashes, not domains | Identity claims without a signed message | @EddieForge |
 | Tests | Floor vs score, misclassification, invalidated root, post-handover owner revert | Greenwash a failing floor | @EddieForge (interim, until another contributor claims Tests here) |
 | Evidence | Re-query checkpoints; pin hashes, not domains | Identity claims without a signed message | open |
 | Comms | Short public wording only | Speak as if this repo controls miners or the freeze | @psycho-v1 |
